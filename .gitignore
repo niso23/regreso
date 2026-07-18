@@ -1,0 +1,25 @@
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editores ===
+.vscode/
+.idea/
+*.swp
+
+# === Salvaguarda: este repositorio es solo de documentación. ===
+# El código fuente del juego NUNCA debe subirse aquí.
+src/
+dist/
+node_modules/
+*.jsx
+*.js
+*.ts
+*.tsx
+package.json
+package-lock.json
+vite.config.*
+.vercel/
+.env
+.env.*
