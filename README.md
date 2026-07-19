@@ -10,9 +10,9 @@
 **Un juego narrativo para aprender Bitcoin desde cero, sin tecnicismos y sin humo.**
 
 [![Estado](https://img.shields.io/badge/estado-beta-orange)](#-estado-del-proyecto)
-[![Versión](https://img.shields.io/badge/versi%C3%B3n-0.2.0--beta-blue)](CHANGELOG.md)
+[![Versión](https://img.shields.io/badge/versi%C3%B3n-0.3.0--beta-blue)](CHANGELOG.md)
 [![Plataforma](https://img.shields.io/badge/plataforma-web-brightgreen)](#-juega-ahora)
-[![Idioma](https://img.shields.io/badge/idioma-espa%C3%B1ol-yellow)](#)
+[![Idiomas](https://img.shields.io/badge/idiomas-english%20%C2%B7%20espa%C3%B1ol-yellow)](#-características)
 [![Licencia](https://img.shields.io/badge/licencia-todos%20los%20derechos%20reservados-lightgrey)](LICENSE)
 
 [Juega ahora](#-juega-ahora) · [Características](#-características) · [Roadmap](ROADMAP.md) · [Visión completa](docs/game-overview.md) · [Changelog](CHANGELOG.md)
@@ -47,6 +47,7 @@ La educación financiera y sobre Bitcoin tiene hoy dos extremos, y ambos fallan:
 - 🕵️ **Secretos ocultos** en los niveles, para quienes miran dos veces.
 - 🏅 **Logros** que marcan los hitos de tu viaje.
 - 💾 **Progreso guardado localmente**: tu partida es tuya, sin cuentas ni servidores.
+- 🌍 **Bilingüe (inglés y español)**: detección automática del idioma del navegador en la primera visita, cambio instantáneo desde la barra superior y preferencia guardada. El inglés es el idioma por defecto y la arquitectura está preparada para sumar más idiomas.
 - 🔊 **Sonido ambiental** con control de silencio.
 - ❤️ **Botón de donaciones** para quienes quieran apoyar el desarrollo.
 
@@ -76,6 +77,7 @@ La educación financiera y sobre Bitcoin tiene hoy dos extremos, y ambos fallan:
 | Animaciones | Motion (Framer Motion) |
 | Navegación | React Router 7 |
 | Iconografía | Lucide |
+| Internacionalización | Sistema i18n propio (archivos de traducción por módulo) |
 | Calidad de código | Oxlint |
 | Despliegue | Vercel |
 
@@ -90,6 +92,7 @@ La educación financiera y sobre Bitcoin tiene hoy dos extremos, y ambos fallan:
 - ✅ Prólogo completo (3 niveles) — la crisis de 2008 y tus primeros satoshis
 - ✅ Mundo 1: *Descubriendo Bitcoin* (4 niveles)
 - ✅ Glosario, mochila, coleccionables, logros, XP y rachas
+- ✅ Juego bilingüe (inglés y español) con detección automática y selector de idioma
 - 🔄 Mundo 2: *Seguridad* — proteger claves y detectar estafas avanzadas
 - 🔜 Mundo 3: *Lightning* — pagos instantáneos sobre Bitcoin
 - 🔜 Mundo 4: *Privacidad*

@@ -24,6 +24,7 @@ Este documento refleja el estado real del desarrollo y hacia dónde va el proyec
 - [x] Guardado local automático, sin cuentas.
 - [x] Sonido ambiental con control de silencio.
 - [x] Botón de donaciones.
+- [x] **Internacionalización (i18n)**: juego bilingüe inglés/español, con inglés por defecto, detección automática del idioma del navegador, preferencia guardada y selector de idioma instantáneo. Arquitectura preparada para añadir más idiomas sin tocar el código.
 - [x] Despliegue web (Vercel).
 
 ## 🔄 En progreso
@@ -47,7 +48,7 @@ Este documento refleja el estado real del desarrollo y hacia dónde va el proyec
 - [ ] Modo repaso: rejugar microniveles del glosario para mantener los conceptos frescos.
 - [ ] Exportar/importar partida (respaldo del progreso entre dispositivos).
 - [ ] Versión instalable (PWA) con soporte offline.
-- [ ] Traducción a otros idiomas (inglés, portugués).
+- [ ] Más idiomas además del inglés y el español (portugués, alemán, francés, japonés…), aprovechando la arquitectura de internacionalización ya integrada.
 - [ ] Accesibilidad ampliada (lector de pantalla, alto contraste, tamaño de texto).
 - [ ] Publicación del código fuente al alcanzar la versión estable.
 

@@ -12,6 +12,27 @@ y el proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 - Mundo 2: *Seguridad* — protección de claves, estafas avanzadas y resguardo de satoshis.
 - Nuevas capturas y material gráfico en este repositorio.
 
+## [0.3.0] - 2026-07-19
+
+Regreso se abre al mundo: el juego, hasta ahora solo en español, pasa a ser **completamente bilingüe (inglés y español)**, con el **inglés como idioma principal** y una arquitectura de internacionalización pensada para sumar nuevos idiomas sin tocar el código del juego.
+
+### Añadido
+
+- **Internacionalización (i18n) completa**: toda la interfaz, la navegación, la historia, los diálogos, los tutoriales, el glosario, los mundos, los niveles, los minijuegos, las preguntas y respuestas, los mensajes, las notificaciones, los logros, la mochila, los objetos, las colecciones y las pantallas finales están disponibles en **inglés y español**. No queda ningún texto fijo dentro del código.
+- **Inglés como idioma por defecto**, con español como segundo idioma. La versión en inglés está *adaptada* para sonar natural a un hablante nativo, no traducida palabra por palabra.
+- **Detección automática del idioma** en la primera visita, a partir de la configuración del navegador: si está en español (`es`, `es-ES`, `es-MX`, `es-EC`…), el juego carga en español; para cualquier otra configuración, en inglés.
+- **Preferencia de idioma persistente**: al elegir un idioma manualmente, la elección se guarda en el dispositivo y se respeta en las siguientes visitas, por encima del idioma del navegador.
+- **Selector de idioma** en la barra superior (🇺🇸 English / 🇪🇸 Español), siempre visible, que cambia toda la interfaz al instante y sin recargar la página.
+
+### Cambiado
+
+- El contenido se reorganizó separando la **lógica del juego** (XP, requisitos, respuestas correctas, configuraciones de minijuegos) de los **textos**, que ahora viven en archivos de traducción por módulo (interfaz, historia, glosario, mundos, logros, objetos, minijuegos…). Añadir un idioma nuevo es tan simple como crear una carpeta de traducciones: no hay que tocar los componentes.
+- Todo el progreso existente (guardado, mochila, glosario, XP, logros, colecciones, niveles y mundos) se conserva intacto; la única diferencia es que ahora el idioma puede cambiarse de forma dinámica.
+
+### Corregido
+
+- Los botones de idioma y sonido de la barra superior ya no tapan la información de XP ni el botón de reintentar dentro de un nivel.
+
 ## [0.2.0] - 2026-07-15
 
 La actualización más grande hasta la fecha: el juego pasa de ser una historia lineal a una **plataforma de aprendizaje por mundos** con progresión, colecciones y metajuego.
@@ -50,5 +71,6 @@ Primera versión beta pública.
 - Despliegue web en Vercel.
 
 [Unreleased]: #
+[0.3.0]: #
 [0.2.0]: #
 [0.1.0]: #

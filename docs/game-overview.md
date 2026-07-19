@@ -99,14 +99,18 @@ Los minijuegos nunca son relleno: cada uno materializa el concepto del nivel don
 
 El progreso se guarda **localmente en el dispositivo del jugador**. No hay registro, cuentas, ni recolección de datos. Es una decisión de diseño coherente con el tema del juego: tu progreso, como tus claves, te pertenece.
 
+### Idiomas
+
+El juego es **bilingüe (inglés y español)**, con el inglés como idioma por defecto. En la primera visita detecta la configuración del navegador y carga español si está en español, o inglés en cualquier otro caso; el jugador puede cambiarlo al instante desde la barra superior y su elección queda guardada para las próximas visitas. La versión en inglés está *adaptada* para sonar natural a un hablante nativo, no traducida de forma literal. La arquitectura separa por completo los textos de la lógica del juego, de modo que sumar nuevos idiomas no requiere tocar el código.
+
 ## 5. Público objetivo
 
 - **Personas adultas sin formación financiera ni técnica** que escuchan hablar de Bitcoin y quieren entender de qué se trata sin que las estafen en el intento. Es el público principal y el listón de claridad: si un nivel no lo entiende un recién llegado, se reescribe.
 - **Jóvenes y estudiantes** (16+) que prefieren aprender jugando antes que leyendo manuales.
-- **Educadores y divulgadores** que buscan una herramienta en español, honesta y sin conflictos de interés, para introducir estos temas.
+- **Educadores y divulgadores** que buscan una herramienta honesta y sin conflictos de interés, en español o en inglés, para introducir estos temas.
 - **Hispanohablantes en economías con inflación alta**, para quienes los problemas que narra el juego no son historia: son el presente.
 
-El juego está escrito íntegramente en español, con lenguaje cotidiano y ejemplos de la vida real.
+El juego está disponible en **inglés y español** (con el inglés como idioma por defecto y detección automática del navegador), siempre con lenguaje cotidiano y ejemplos de la vida real.
 
 ## 6. Futuras mejoras
 
@@ -117,7 +121,7 @@ En orden aproximado de prioridad (el detalle vive en [ROADMAP.md](../ROADMAP.md)
 3. **Modo repaso** del glosario, para mantener frescos los conceptos ya dominados.
 4. **Exportar/importar partida**, manteniendo la filosofía sin cuentas.
 5. **PWA instalable con modo offline**, pensando en jugadores con conectividad limitada.
-6. **Traducciones** (inglés, portugués) una vez estabilizado el contenido en español.
+6. **Más idiomas** — con el inglés y el español ya integrados, sumar portugués y otros aprovechando la arquitectura de internacionalización.
 7. **Accesibilidad ampliada**: lector de pantalla, alto contraste, tamaños de texto.
 8. **Publicación del código fuente** al alcanzar la versión estable, junto con una guía para contribuir.
 
