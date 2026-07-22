@@ -70,6 +70,10 @@ El contenido se organiza en **mundos** temáticos que se desbloquean en orden:
 
 Cada nivel es una secuencia de **pasos**: escenas ambientales, diálogos fechados ("Día 1", "Día 15"…), explicativos animados cuadro a cuadro, decisiones, minijuegos, momentos de revelación y secretos ocultos.
 
+### Narración por voz
+
+Las escenas ambientales que abren y cierran cada capítulo se narran en voz alta con una voz generada por inteligencia artificial, en inglés y en español, sincronizada con el ritmo en que el texto aparece en pantalla. Si el audio de alguna escena todavía no está disponible, el juego narra con la voz del propio navegador en su lugar, así nunca queda en silencio.
+
 ### Minijuegos
 
 Los minijuegos nunca son relleno: cada uno materializa el concepto del nivel donde aparece.

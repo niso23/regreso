@@ -12,6 +12,20 @@ y el proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 - Mundo 2: *Seguridad* — protección de claves, estafas avanzadas y resguardo de satoshis.
 - Nuevas capturas y material gráfico en este repositorio.
 
+## [0.4.0] - 2026-07-22
+
+Las escenas narrativas del juego (los momentos tipo "aviso en pantalla" que abren y cierran cada capítulo) ahora se narran en voz alta con una voz de inteligencia artificial, en ambos idiomas.
+
+### Añadido
+
+- **Narración por voz con IA** en las escenas narrativas del prólogo y del Mundo 1, en inglés y en español, con una voz elegida específicamente para sonar cálida y natural en ambos idiomas.
+- El ritmo de aparición del texto en pantalla ahora sigue el ritmo de la narración en lugar de un tiempo fijo, para que la lectura y el audio vayan siempre sincronizados.
+- **Respaldo automático**: si el audio de alguna escena todavía no está disponible (por ejemplo, contenido nuevo recién agregado), el juego narra con la voz del navegador en su lugar, sin quedar nunca en silencio.
+
+### Corregido
+
+- Bug de sonido donde, en ciertas condiciones, podían escucharse dos narraciones superpuestas o la voz de respaldo sonando junto con la narración real.
+
 ## [0.3.0] - 2026-07-19
 
 Regreso se abre al mundo: el juego, hasta ahora solo en español, pasa a ser **completamente bilingüe (inglés y español)**, con el **inglés como idioma principal** y una arquitectura de internacionalización pensada para sumar nuevos idiomas sin tocar el código del juego.
@@ -71,6 +85,7 @@ Primera versión beta pública.
 - Despliegue web en Vercel.
 
 [Unreleased]: #
+[0.4.0]: #
 [0.3.0]: #
 [0.2.0]: #
 [0.1.0]: #

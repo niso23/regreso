@@ -25,6 +25,7 @@ Este documento refleja el estado real del desarrollo y hacia dónde va el proyec
 - [x] Sonido ambiental con control de silencio.
 - [x] Botón de donaciones.
 - [x] **Internacionalización (i18n)**: juego bilingüe inglés/español, con inglés por defecto, detección automática del idioma del navegador, preferencia guardada y selector de idioma instantáneo. Arquitectura preparada para añadir más idiomas sin tocar el código.
+- [x] **Narración por voz con IA** en las escenas narrativas del prólogo y el Mundo 1, en ambos idiomas, con respaldo automático por voz del navegador si algún audio no está disponible.
 - [x] Despliegue web (Vercel).
 
 ## 🔄 En progreso
