@@ -10,7 +10,7 @@
 **Un juego narrativo para aprender Bitcoin desde cero, sin tecnicismos y sin humo.**
 
 [![Estado](https://img.shields.io/badge/estado-beta-orange)](#-estado-del-proyecto)
-[![Versión](https://img.shields.io/badge/versi%C3%B3n-0.4.0--beta-blue)](CHANGELOG.md)
+[![Versión](https://img.shields.io/badge/versi%C3%B3n-0.5.0--beta-blue)](CHANGELOG.md)
 [![Plataforma](https://img.shields.io/badge/plataforma-web-brightgreen)](#-juega-ahora)
 [![Idiomas](https://img.shields.io/badge/idiomas-english%20%C2%B7%20espa%C3%B1ol-yellow)](#-características)
 [![Licencia](https://img.shields.io/badge/licencia-todos%20los%20derechos%20reservados-lightgrey)](LICENSE)
@@ -38,11 +38,12 @@ La educación financiera y sobre Bitcoin tiene hoy dos extremos, y ambos fallan:
 
 ## ✨ Características
 
-- 🗺️ **Sistema de mundos** con desbloqueo progresivo: un Prólogo narrativo (la crisis de 2008) y el Mundo 1 *Descubriendo Bitcoin*, con 6 mundos más ya visibles en el mapa.
-- 🎮 **10 minijuegos integrados en la historia**: reconstruir el documento de Satoshi, crear tu primera wallet, detectar estafas, resolver el laberinto del dinero, asignar un presupuesto, construir y dividir un bitcoin, y más.
-- 📚 **Glosario interactivo**: cada término se descubre jugando y se aprende con un micronivel de 30–60 segundos (explicación sencilla + ejemplo cotidiano + preguntas rápidas).
-- 🎒 **Mochila**: objetos educativos que encuentras durante la aventura y cuentan tu propia historia dentro del juego.
-- 🏆 **Coleccionables**: logos reales del ecosistema Bitcoin (Bitcoin, Mempool, BTCPay Server…) que se desbloquean al avanzar, cada uno con su explicación.
+- 🗺️ **Cinco mundos jugables** con desbloqueo progresivo y 19 niveles en total: el Prólogo narrativo (la crisis de 2008), *Descubriendo Bitcoin*, *Seguridad*, *Lightning* y *Privacidad*, con 3 mundos más ya visibles en el mapa.
+- 🎮 **18 minijuegos integrados en la historia**: reconstruir el documento de Satoshi, crear tu primera wallet, detectar estafas, verificar una dirección, encontrar la ruta de un pago Lightning, pagar una factura, explorar la cadena, rastrear una huella, encontrar la fuga de privacidad, y más.
+- 🎯 **Prueba final en cada mundo**: el último nivel plantea cinco situaciones reales sin pistas, para demostrar lo aprendido antes de avanzar.
+- 📚 **Glosario interactivo de 44 términos**: cada uno se descubre jugando y se aprende con un micronivel de 30–60 segundos (explicación sencilla + ejemplo cotidiano + preguntas rápidas).
+- 🎒 **Mochila con 23 objetos educativos** que encuentras durante la aventura y cuentan tu propia historia dentro del juego.
+- 🏆 **Coleccionables**: 15 logos reales del ecosistema Bitcoin (Bitcoin, Mempool, BTCPay Server…) que se desbloquean al avanzar, cada uno con su explicación.
 - ⭐ **Sistema de XP transversal**: ganas experiencia por avanzar en la historia, aprender términos, completar niveles perfectos, mantener tu racha diaria y descubrir secretos.
 - 🕵️ **Secretos ocultos** en los niveles, para quienes miran dos veces.
 - 🏅 **Logros** que marcan los hitos de tu viaje.
@@ -85,7 +86,7 @@ La educación financiera y sobre Bitcoin tiene hoy dos extremos, y ambos fallan:
 
 ## 🚧 Estado del proyecto
 
-**Beta pública.** El Prólogo y el Mundo 1 están completos y jugables de principio a fin. El contenido, el balance de XP y la interfaz siguen evolucionando semana a semana.
+**Beta pública.** Cinco mundos completos y jugables de principio a fin — Prólogo, *Descubriendo Bitcoin*, *Seguridad*, *Lightning* y *Privacidad* —, con 19 niveles, 18 minijuegos y narración por voz en inglés y español. El contenido, el balance de XP y la interfaz siguen evolucionando semana a semana.
 
 > **Nota sobre el código fuente:** este repositorio contiene únicamente la documentación y presentación del proyecto. El código fuente permanece privado durante la fase beta y se evaluará su publicación al alcanzar la versión estable. Este repositorio sirve además como registro público de autoría del proyecto.
 
@@ -93,13 +94,16 @@ La educación financiera y sobre Bitcoin tiene hoy dos extremos, y ambos fallan:
 
 - ✅ Prólogo completo (3 niveles) — la crisis de 2008 y tus primeros satoshis
 - ✅ Mundo 1: *Descubriendo Bitcoin* (4 niveles)
+- ✅ Mundo 2: *Seguridad* (4 niveles) — proteger tus claves y detectar estafas avanzadas
+- ✅ Mundo 3: *Lightning* (4 niveles) — pagos instantáneos sobre Bitcoin
+- ✅ Mundo 4: *Privacidad* (4 niveles) — qué revela la cadena y qué revelas tú
 - ✅ Glosario, mochila, coleccionables, logros, XP y rachas
 - ✅ Juego bilingüe (inglés y español) con detección automática y selector de idioma
 - ✅ Narración por voz con IA en las escenas narrativas, en ambos idiomas
-- 🔄 Mundo 2: *Seguridad* — proteger claves y detectar estafas avanzadas
-- 🔜 Mundo 3: *Lightning* — pagos instantáneos sobre Bitcoin
-- 🔜 Mundo 4: *Privacidad*
-- 💡 Minería, Economía Bitcoin, Programación Bitcoin, y más
+- 🔄 Mundo 5: *Minería* — cómo se asegura la red y de dónde salen los bitcoins nuevos
+- 🔜 Economía Bitcoin — escasez, halving y pensamiento a largo plazo
+- 🔜 Programación Bitcoin — scripts, nodos propios y primeras herramientas
+- 💡 Modo repaso, exportar partida, versión instalable (PWA), y más
 
 El detalle completo está en [ROADMAP.md](ROADMAP.md).
 

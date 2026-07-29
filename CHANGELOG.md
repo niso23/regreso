@@ -9,8 +9,30 @@ y el proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
-- Mundo 2: *Seguridad* — protección de claves, estafas avanzadas y resguardo de satoshis.
+- Mundo de *Minería*: cómo se asegura la red y de dónde salen los bitcoins nuevos.
 - Nuevas capturas y material gráfico en este repositorio.
+
+## [0.5.0] - 2026-07-29
+
+La actualización más grande desde el lanzamiento: el juego **triplica su contenido** con tres mundos nuevos completos. Regreso deja de ser una introducción a Bitcoin para convertirse en un recorrido que va desde la crisis de 2008 hasta la custodia, los pagos instantáneos y la privacidad.
+
+### Añadido
+
+- **Mundo 2: *Seguridad*** (4 niveles) — *La Llave de Todo*, *El Error Irreversible*, *El Engaño* y *La Prueba Final*. Quién tiene realmente la llave de tus sats, por qué en Bitcoin no existe el botón de deshacer, y cómo reconocer que a nadie lo "hackean": lo que intentan es convencerlo.
+- **Mundo 3: *Lightning*** (4 niveles) — *El Problema de la Velocidad*, *La Red Invisible*, *Tu Primer Pago Lightning* y *La Red en Acción*. Por qué no todos los pagos son iguales, cómo un pago encuentra su ruta entre canales y nodos, y el hábito de decodificar una factura antes de pagarla.
+- **Mundo 4: *Privacidad*** (4 niveles) — *El Libro Abierto*, *Las Huellas*, *No Dejes Tus Huellas* y *El Guardián de la Privacidad*. Bitcoin no es anónimo, y la cadena no dice quién eres: lo dice lo que tú compartes. Nada de lo que se enseña aquí es ilegal; todo revela más de lo necesario.
+- **Ocho minijuegos nuevos**, uno por concepto clave: *Detectar el riesgo* y *Verificar la dirección* (Seguridad); *Comparar pagos*, *Encontrar la ruta* y *Pagar una factura* (Lightning); *Explorar la cadena*, *Rastrear la huella* y *Encontrar la fuga* (Privacidad). El juego pasa de 10 a 18 minijuegos.
+- **Nivel de prueba final en cada mundo**: el cuarto nivel plantea cinco situaciones reales sin pistas, para demostrar lo aprendido antes de avanzar.
+- **Frase de cierre de mundo**: al completar un mundo, la pantalla de resumen muestra una reflexión final que conecta lo aprendido con el mundo siguiente.
+- **Seis logros nuevos**: Ojo Entrenado, Guardián de tus Sats, Primer Relámpago, Viajero de la Red, Rastreador y Detective de la Cadena.
+- **Contenido de aprendizaje ampliado**: el glosario llega a 44 términos, la mochila a 23 objetos y la colección a 15 logos del ecosistema, todos con su explicación y su micronivel correspondiente.
+- **Narración por voz con IA** también en las escenas de los tres mundos nuevos, en inglés y español, manteniendo el respaldo automático por voz del navegador.
+
+### Cambiado
+
+- La meta de XP total se recalculó de 2000 a **7500** para acompañar el nuevo volumen de contenido: la barra de progreso vuelve a reflejar el avance real hasta el final del juego.
+- El mapa reordena los mundos futuros: *Minería* pasa a ser el siguiente en desarrollo, después de *Privacidad*.
+- Cada mundo nuevo exige completar el anterior (Seguridad → Lightning → Privacidad), manteniendo una curva de dificultad progresiva.
 
 ## [0.4.0] - 2026-07-22
 
@@ -85,6 +107,7 @@ Primera versión beta pública.
 - Despliegue web en Vercel.
 
 [Unreleased]: #
+[0.5.0]: #
 [0.4.0]: #
 [0.3.0]: #
 [0.2.0]: #

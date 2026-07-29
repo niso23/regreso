@@ -61,12 +61,12 @@ El contenido se organiza en **mundos** temáticos que se desbloquean en orden:
 | --- | --- | --- |
 | **Prólogo** | ✅ Jugable | La crisis de 2008 vivida en primera persona: inflación, intermediarios, el documento de Satoshi, la primera wallet, los primeros satoshis. |
 | **Mundo 1: Descubriendo Bitcoin** | ✅ Jugable | Qué es Bitcoin, por qué fue creado, sus propiedades y por qué cambió la historia del dinero. |
-| **Seguridad** | 🔄 En desarrollo | Proteger claves, detectar estafas avanzadas, custodia a prueba de errores. |
-| **Lightning** | 🔜 Planificado | Pagos instantáneos sobre Bitcoin. |
-| **Privacidad** | 🔜 Planificado | Qué revela cada transacción y cómo cuidar tus datos. |
-| **Minería** | 💡 Futuro | Cómo se asegura la red y de dónde salen los bitcoins nuevos. |
-| **Economía Bitcoin** | 💡 Futuro | Escasez, halving, pensamiento a largo plazo. |
-| **Programación Bitcoin** | 💡 Futuro | Scripts, nodos propios, primeras herramientas. |
+| **Seguridad** | ✅ Jugable | Quién tiene realmente la llave de tus sats, por qué no existe el botón de deshacer y cómo reconocer el engaño: a nadie lo hackean, lo convencen. |
+| **Lightning** | ✅ Jugable | Por qué no todos los pagos son iguales, cómo un pago encuentra su ruta entre canales y nodos, y el hábito de decodificar una factura antes de pagarla. |
+| **Privacidad** | ✅ Jugable | Bitcoin no es anónimo: la cadena no dice quién eres, lo dice lo que tú compartes. Qué revela cada transacción y cómo dejar menos huellas. |
+| **Minería** | 🔄 En desarrollo | Cómo se asegura la red y de dónde salen los bitcoins nuevos. |
+| **Economía Bitcoin** | 🔜 Planificado | Escasez, halving, pensamiento a largo plazo. |
+| **Programación Bitcoin** | 🔜 Planificado | Scripts, nodos propios, primeras herramientas. |
 
 Cada nivel es una secuencia de **pasos**: escenas ambientales, diálogos fechados ("Día 1", "Día 15"…), explicativos animados cuadro a cuadro, decisiones, minijuegos, momentos de revelación y secretos ocultos.
 
@@ -90,13 +90,25 @@ Los minijuegos nunca son relleno: cada uno materializa el concepto del nivel don
 | Arrastrar y clasificar | Distinguir categorías (qué es dinero, qué no) |
 | Construir Bitcoin | Las propiedades que lo hacen único, pieza a pieza |
 | Dividir Bitcoin | Los satoshis: por qué no necesitas "un bitcoin entero" |
+| Detectar el riesgo | Reconocer la situación insegura antes de estar dentro de ella |
+| Verificar la dirección | El hábito que evita el error irreversible |
+| Comparar pagos | Por qué un café y una transferencia internacional no son el mismo pago |
+| Encontrar la ruta | Cómo un pago viaja por canales y nodos hasta su destino |
+| Pagar una factura | Decodificar antes de pagar: qué dice realmente una factura Lightning |
+| Explorar la cadena | Qué información pública deja cada transacción |
+| Rastrear la huella | Cómo se conectan los datos sueltos hasta señalar a una persona |
+| Encontrar la fuga | Detectar el hábito propio que revela más de lo necesario |
+
+### La prueba final de cada mundo
+
+El cuarto nivel de cada mundo no enseña nada nuevo: **evalúa**. Presenta cinco situaciones reales, sin pistas ni ayudas, donde el jugador debe aplicar todo lo aprendido. Es el filtro que separa "leí sobre esto" de "sé reconocerlo cuando me pase". Al superarlo, la pantalla de resumen cierra el mundo con una reflexión que enlaza con el siguiente.
 
 ### Progresión y colecciones
 
-- **XP y barra de progreso global** hacia una meta total (~2000 XP en la versión actual).
+- **XP y barra de progreso global** hacia una meta total (~7500 XP en la versión actual).
 - **Racha diaria** que premia volver cada día.
-- **Mochila** con objetos narrativos encontrados en la aventura.
-- **Coleccionables**: logos reales del ecosistema (Bitcoin, Mempool, BTCPay Server…), cada uno con su explicación — el jugador termina reconociendo el ecosistema real, no solo el del juego.
+- **Mochila** con 23 objetos narrativos encontrados en la aventura.
+- **Coleccionables**: 15 logos reales del ecosistema (Bitcoin, Mempool, BTCPay Server…), cada uno con su explicación — el jugador termina reconociendo el ecosistema real, no solo el del juego.
 - **Logros** por hitos de historia, curiosidad y aprendizaje.
 
 ### Persistencia y privacidad
@@ -120,8 +132,8 @@ El juego está disponible en **inglés y español** (con el inglés como idioma 
 
 En orden aproximado de prioridad (el detalle vive en [ROADMAP.md](../ROADMAP.md)):
 
-1. **Mundo 2: Seguridad** — el contenido más pedido: custodia y anti-estafas en profundidad.
-2. **Mundos Lightning y Privacidad**, con sus minijuegos, términos y coleccionables propios.
+1. **Mundo de Minería** — cómo se asegura la red y de dónde salen los bitcoins nuevos.
+2. **Mundos de Economía Bitcoin y Programación Bitcoin**, con sus minijuegos, términos y coleccionables propios.
 3. **Modo repaso** del glosario, para mantener frescos los conceptos ya dominados.
 4. **Exportar/importar partida**, manteniendo la filosofía sin cuentas.
 5. **PWA instalable con modo offline**, pensando en jugadores con conectividad limitada.

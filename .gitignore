@@ -20,6 +20,12 @@ node_modules/
 package.json
 package-lock.json
 vite.config.*
+index.html
+public/
+scripts/
+vercel.json
+.vercelignore
+.oxlintrc.json
 .vercel/
 .env
 .env.*
