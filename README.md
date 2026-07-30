@@ -10,7 +10,7 @@
 **Un juego narrativo para aprender Bitcoin desde cero, sin tecnicismos y sin humo.**
 
 [![Estado](https://img.shields.io/badge/estado-beta-orange)](#-estado-del-proyecto)
-[![Versión](https://img.shields.io/badge/versi%C3%B3n-0.5.0--beta-blue)](CHANGELOG.md)
+[![Versión](https://img.shields.io/badge/versi%C3%B3n-0.6.0--beta-blue)](CHANGELOG.md)
 [![Plataforma](https://img.shields.io/badge/plataforma-web-brightgreen)](#-juega-ahora)
 [![Idiomas](https://img.shields.io/badge/idiomas-english%20%C2%B7%20espa%C3%B1ol-yellow)](#-características)
 [![Licencia](https://img.shields.io/badge/licencia-todos%20los%20derechos%20reservados-lightgrey)](LICENSE)
@@ -44,6 +44,7 @@ La educación financiera y sobre Bitcoin tiene hoy dos extremos, y ambos fallan:
 - 📚 **Glosario interactivo de 44 términos**: cada uno se descubre jugando y se aprende con un micronivel de 30–60 segundos (explicación sencilla + ejemplo cotidiano + preguntas rápidas).
 - 🎒 **Mochila con 23 objetos educativos** que encuentras durante la aventura y cuentan tu propia historia dentro del juego.
 - 🏆 **Coleccionables**: 15 logos reales del ecosistema Bitcoin (Bitcoin, Mempool, BTCPay Server…) que se desbloquean al avanzar, cada uno con su explicación.
+- 📜 **Bitcoin Journey**: un certificado personal de aprendizaje que reúne tu ruta, tus conceptos dominados, tus artefactos y tus sellos — y que puedes compartir como imagen en WhatsApp o redes.
 - ⭐ **Sistema de XP transversal**: ganas experiencia por avanzar en la historia, aprender términos, completar niveles perfectos, mantener tu racha diaria y descubrir secretos.
 - 🕵️ **Secretos ocultos** en los niveles, para quienes miran dos veces.
 - 🏅 **Logros** que marcan los hitos de tu viaje.
@@ -81,12 +82,13 @@ La educación financiera y sobre Bitcoin tiene hoy dos extremos, y ambos fallan:
 | Iconografía | Lucide |
 | Internacionalización | Sistema i18n propio (archivos de traducción por módulo) |
 | Narración por voz | ElevenLabs (IA), con Web Speech API como respaldo |
+| Certificado e imágenes | Canvas API (composición propia) y Web Share API |
 | Calidad de código | Oxlint |
 | Despliegue | Vercel |
 
 ## 🚧 Estado del proyecto
 
-**Beta pública.** Cinco mundos completos y jugables de principio a fin — Prólogo, *Descubriendo Bitcoin*, *Seguridad*, *Lightning* y *Privacidad* —, con 19 niveles, 18 minijuegos y narración por voz en inglés y español. El contenido, el balance de XP y la interfaz siguen evolucionando semana a semana.
+**Beta pública.** Cinco mundos completos y jugables de principio a fin — Prólogo, *Descubriendo Bitcoin*, *Seguridad*, *Lightning* y *Privacidad* —, con 19 niveles, 18 minijuegos, narración por voz en inglés y español, y certificado personal compartible. El contenido, el balance de XP y la interfaz siguen evolucionando semana a semana.
 
 > **Nota sobre el código fuente:** este repositorio contiene únicamente la documentación y presentación del proyecto. El código fuente permanece privado durante la fase beta y se evaluará su publicación al alcanzar la versión estable. Este repositorio sirve además como registro público de autoría del proyecto.
 
@@ -100,6 +102,7 @@ La educación financiera y sobre Bitcoin tiene hoy dos extremos, y ambos fallan:
 - ✅ Glosario, mochila, coleccionables, logros, XP y rachas
 - ✅ Juego bilingüe (inglés y español) con detección automática y selector de idioma
 - ✅ Narración por voz con IA en las escenas narrativas, en ambos idiomas
+- ✅ Bitcoin Journey — certificado personal de aprendizaje, compartible como imagen
 - 🔄 Mundo 5: *Minería* — cómo se asegura la red y de dónde salen los bitcoins nuevos
 - 🔜 Economía Bitcoin — escasez, halving y pensamiento a largo plazo
 - 🔜 Programación Bitcoin — scripts, nodos propios y primeras herramientas
@@ -114,7 +117,8 @@ El detalle completo está en [ROADMAP.md](ROADMAP.md).
 3. Explora: hay **secretos ocultos** que premian la curiosidad.
 4. Visita el **glosario** y completa los microniveles para dominar cada término.
 5. Revisa tu **mochila**, tus **coleccionables** y tu **perfil** para ver cuánto has avanzado.
-6. Vuelve cada día: la **racha diaria** también da XP.
+6. Abre tu **Bitcoin Journey** desde el mapa para ver tu certificado — y compártelo si quieres.
+7. Vuelve cada día: la **racha diaria** también da XP.
 
 Tu progreso se guarda automáticamente en tu dispositivo.
 

@@ -25,6 +25,9 @@ Este documento refleja el estado real del desarrollo y hacia dónde va el proyec
 - [x] Coleccionables: 15 logos del ecosistema Bitcoin con su explicación.
 - [x] Sistema de XP transversal (historia, glosario, colecciones, niveles perfectos, racha diaria).
 - [x] Logros.
+- [x] **Bitcoin Journey**: certificado personal de aprendizaje con la ruta recorrida, conceptos dominados, artefactos, ecosistema descubierto, sellos y resumen del viaje, generado siempre a partir del progreso real.
+- [x] **Compartir el certificado** como imagen diseñada para redes, con panel nativo en móvil, descarga en escritorio y respaldo en texto.
+- [x] **Vista previa al compartir el enlace** del juego (Open Graph y Twitter Card), con la imagen generada de forma automática y reproducible.
 - [x] Guardado local automático, sin cuentas.
 - [x] Sonido ambiental con control de silencio.
 - [x] Botón de donaciones.

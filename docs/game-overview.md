@@ -99,6 +99,14 @@ Los minijuegos nunca son relleno: cada uno materializa el concepto del nivel don
 | Rastrear la huella | Cómo se conectan los datos sueltos hasta señalar a una persona |
 | Encontrar la fuga | Detectar el hábito propio que revela más de lo necesario |
 
+### El Bitcoin Journey
+
+El juego incluye un **certificado personal de aprendizaje** (`/trayectoria`) con forma de documento: la ruta recorrida mundo por mundo, los conceptos aprendidos —destacando los que el jugador domina—, los artefactos de la mochila, los proyectos del ecosistema que fue encontrando, los sellos ganados y un resumen con niveles, mundos y racha. Cada mundo conserva su color y su motivo propio, y el documento lleva un folio corto derivado del progreso real.
+
+Es deliberadamente **honesto sobre lo que es**: un registro personal generado a partir del progreso guardado en el navegador, no una titulación ni algo que acredite nada ante terceros. El propio certificado lo dice.
+
+Y está pensado para **salir del juego**: puede compartirse como una lámina vertical dibujada específicamente para verse bien en WhatsApp y redes sociales, en lugar de una captura de pantalla ilegible. El certificado no guarda una copia del progreso: se compone siempre desde el estado real de la partida, así que nunca puede contradecirla.
+
 ### La prueba final de cada mundo
 
 El cuarto nivel de cada mundo no enseña nada nuevo: **evalúa**. Presenta cinco situaciones reales, sin pistas ni ayudas, donde el jugador debe aplicar todo lo aprendido. Es el filtro que separa "leí sobre esto" de "sé reconocerlo cuando me pase". Al superarlo, la pantalla de resumen cierra el mundo con una reflexión que enlaza con el siguiente.

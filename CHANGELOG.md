@@ -12,6 +12,29 @@ y el proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 - Mundo de *Minería*: cómo se asegura la red y de dónde salen los bitcoins nuevos.
 - Nuevas capturas y material gráfico en este repositorio.
 
+## [0.6.0] - 2026-07-29
+
+Todo lo aprendido tiene ahora dónde verse: el juego incorpora el **Bitcoin Journey**, un certificado personal que reúne el recorrido completo del jugador y puede compartirse como imagen.
+
+### Añadido
+
+- **Bitcoin Journey** (`/trayectoria`): un registro personal de aprendizaje con forma de documento, que reúne la ruta recorrida, los conceptos aprendidos y dominados, los artefactos de la mochila, los proyectos del ecosistema descubiertos, los sellos ganados y un resumen del viaje con niveles, mundos y racha. Cada mundo aparece con su color y su motivo propio.
+- **Folio del documento**: un identificador corto derivado del progreso real, para que el certificado tenga la forma que uno espera de un documento y dos recorridos distintos no produzcan el mismo papel. Cambia a medida que avanzas.
+- **Compartir el certificado como imagen**: el juego dibuja una lámina vertical (1080×1350) diseñada específicamente para verse bien en WhatsApp y redes sociales, en lugar de capturar la pantalla. El reparto usa tres escalones según lo que permita el dispositivo: panel nativo con la imagen adjunta en móvil, descarga del PNG con el texto copiado al portapapeles en escritorio, y solo texto si el navegador no puede generar imágenes. En todos los casos la interfaz informa de lo que ocurrió.
+- **Vista previa al compartir el enlace del juego**: al pegar la dirección en X, WhatsApp, Telegram, Reddit o Discord ahora aparece una tarjeta con título, descripción e imagen propia (etiquetas Open Graph y Twitter Card).
+- **Acceso al certificado desde el mapa**, con aviso cuando hay un capítulo nuevo por ver.
+
+### Cambiado
+
+- La tarjeta de mundo completado pasa a ser una **franja compacta que sigue el avance real** del jugador, en lugar de una tarjeta grande fija en el prólogo.
+- El certificado no guarda una segunda copia del progreso: se genera siempre a partir del estado real de la partida, así que nunca puede quedar desincronizado.
+- Los textos de interfaz compartidos (nombre del juego, botones comunes) se movieron a un módulo de traducción propio, reutilizable por el resto del juego.
+
+### Corregido
+
+- El botón de compartir copiaba en silencio y dejaba al jugador sin saber si había ocurrido algo; ahora cada resultado se comunica en pantalla.
+- La imagen de vista previa para redes sociales no existía en el sitio publicado: la ruta apuntaba a un archivo ausente y las redes recibían la página del juego en lugar de una imagen. La imagen se genera ahora de forma automática y reproducible en cada publicación.
+
 ## [0.5.0] - 2026-07-29
 
 La actualización más grande desde el lanzamiento: el juego **triplica su contenido** con tres mundos nuevos completos. Regreso deja de ser una introducción a Bitcoin para convertirse en un recorrido que va desde la crisis de 2008 hasta la custodia, los pagos instantáneos y la privacidad.
@@ -107,6 +130,7 @@ Primera versión beta pública.
 - Despliegue web en Vercel.
 
 [Unreleased]: #
+[0.6.0]: #
 [0.5.0]: #
 [0.4.0]: #
 [0.3.0]: #
